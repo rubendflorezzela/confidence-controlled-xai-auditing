@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software or the released audit records, please cite the accompanying paper."
+title: "Confidence-Controlled XAI Auditing for Pedestrian Detection under Domain Shift"
+type: software
+authors:
+  - family-names: "Florez-Zela"
+    given-names: "Ruben Dario"
+    affiliation: "Universidad Nacional de San Agustin de Arequipa"
+version: 1.0.0
+date-released: 2026-09-21
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Confidence-Controlled XAI Auditing for Pedestrian Detection under Domain Shift"
+  authors:
+    - family-names: "Florez-Zela"
+      given-names: "Ruben Dario"
+      affiliation: "Universidad Nacional de San Agustin de Arequipa"
+  collection-title: "2026 IEEE International Conference on Vehicular Electronics and Safety (ICVES)"
+  conference:
+    name: "IEEE ICVES 2026"
+    city: "Cochabamba"
+    country: "BO"
+  year: 2026

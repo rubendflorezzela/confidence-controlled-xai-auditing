@@ -1,0 +1,13 @@
+name: confidence-xai
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - pandas==2.3.3
+      - scipy==1.15.3
+      - matplotlib==3.10.8
+      - opencv-python==4.9.0.80
+      - ultralytics==8.4.87

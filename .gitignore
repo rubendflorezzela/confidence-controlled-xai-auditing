@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model weights / caches
+*.pt
+*.onnx
+runs/
+.cache/
+
+# Raw datasets (never commit)
+data/PIE/
+data/JAAD/
+!data/README.md
+
+# Generated qualitative caches
+results/qualitative_cache/
+
+# Temporary files
+*.tmp
+*.bak
+~$*

@@ -1,0 +1,54 @@
+{
+  "PIE": {
+    "domain": "PIE",
+    "n_true_positives": 4386,
+    "quantiles": [
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "boundaries": [
+      0.2836217482884725,
+      0.68656853834788
+    ],
+    "labels": [
+      "low_conf",
+      "mid_conf",
+      "high_conf"
+    ],
+    "counts_per_tercile": {
+      "low_conf": 1462,
+      "mid_conf": 1462,
+      "high_conf": 1462
+    },
+    "confidence_min": 0.0010047986870631576,
+    "confidence_max": 0.9133221507072449,
+    "available_sets": "ALL",
+    "fit_timestamp_utc": "2026-07-05T01:30:51.102091+00:00"
+  },
+  "JAAD": {
+    "domain": "JAAD",
+    "n_true_positives": 4747,
+    "quantiles": [
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "boundaries": [
+      0.16419346630573273,
+      0.6820454597473145
+    ],
+    "labels": [
+      "low_conf",
+      "mid_conf",
+      "high_conf"
+    ],
+    "counts_per_tercile": {
+      "low_conf": 1582,
+      "mid_conf": 1582,
+      "high_conf": 1583
+    },
+    "confidence_min": 0.0010082090739160776,
+    "confidence_max": 0.920871376991272,
+    "available_sets": "ALL",
+    "fit_timestamp_utc": "2026-07-05T01:49:54.191908+00:00"
+  }
+}
