@@ -34,8 +34,6 @@ The repository implements a confidence-controlled audit of post-hoc explanations
 │   └── results_reference.md
 ├── tests/
 │   └── test_reproducibility.py
-├── paper/
-│   └── Confidence_Controlled_XAI_Auditing.pdf
 ├── requirements.txt
 ├── environment.yml
 ├── CITATION.cff
