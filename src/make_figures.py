@@ -90,9 +90,9 @@ def fig_crossdomain_bins(ctrl, out_path, alpha=0.05):
     for i in range(len(labels)):
         # significant: filled bar; not significant: hollow with hatching.
         if sig[i]:
-            ax.bar(x[i], gaps[i], color="#1f3b73", edgecolor="black", lw=0.6, width=0.62)
+            ax.bar(x[i], gaps[i], color="cornflowerblue", edgecolor="black", lw=0.6, width=0.62)
         else:
-            ax.bar(x[i], gaps[i], color="white", edgecolor="#1f3b73", lw=0.9,
+            ax.bar(x[i], gaps[i], color="white", edgecolor="cornflowerblue", lw=0.9,
                    hatch="///", width=0.62)
     ax.errorbar(x, gaps, yerr=yerr, fmt="none", ecolor="black", elinewidth=0.8, capsize=2)
     ax.axhline(0, color="black", lw=0.7)
@@ -104,8 +104,8 @@ def fig_crossdomain_bins(ctrl, out_path, alpha=0.05):
     # manual significance legend
     from matplotlib.patches import Patch
     handles = [
-        Patch(facecolor="#1f3b73", edgecolor="black", label="Holm $p<0.05$"),
-        Patch(facecolor="white", edgecolor="#1f3b73", hatch="///", label="n.s."),
+        Patch(facecolor="cornflowerblue", edgecolor="black", label="Holm $p<0.05$"),
+        Patch(facecolor="white", edgecolor="cornflowerblue", hatch="///", label="n.s."),
     ]
     ax.legend(handles=handles, frameon=True, framealpha=0.9, edgecolor="none", loc="upper left")
     fig.tight_layout(pad=0.4)
